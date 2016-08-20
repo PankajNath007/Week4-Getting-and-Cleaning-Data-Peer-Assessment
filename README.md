@@ -15,7 +15,7 @@ Here are the data for the project:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 ## Assumptions
-The script assumes the data will be found in the directory "getdata_dataset/UCI HAR Dataset/" structured as it is in the linked archive. The script requires that the packages "plyr" and "reshape2" are available.
+The script assumes the data will be found in the directory "UCI HAR Dataset/" structured as it is in the linked archive. The script requires that the packages "plyr" and "reshape2" are available.
 
 ## Use
 To use the script at the prompt, call source("~/run_analysis.R") correcting for file location. Assigning the ouput of the script to a data frame is recomended, since the resulting table is too large to simply read on screen.
