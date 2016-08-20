@@ -5,11 +5,14 @@ This script processes data from the Human Activity Recognition Using Smartphones
 The script was prepared to meet the requirements of an assignment in the Getting and Cleaning Data Course offered on Coursera
 
 ## Source Data
-credit for the Human Activity Recognition Using Smartphones Dataset to:
-Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto. Smartlab - Non Linear Complex Systems Laboratory DITEN - Universit? degli Studi di Genova. Via Opera Pia 11A, I-16145, Genoa, Italy. activityrecognition@smartlab.ws www.smartlab.ws
-Data available here: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
-With a full description here:
+The data linked to from the course website represent data collected from the accelerometers from the Samsung Galaxy S smartphone. 
+A full description is available at the site where the data was obtained:
+
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
+Here are the data for the project:
+
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 ## Assumptions
 The script assumes the data will be found in the directory "./UCI HAR Dataset/" structured as it is in the linked archive. The script requires that the packages "plyr" and "reshape2" are available.
